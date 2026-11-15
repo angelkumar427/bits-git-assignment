@@ -1,7 +1,11 @@
 ================================================================================
 GIT COMMANDS DOCUMENTATION (git_commands.txt)
 Assignment: Git & GitHub Workflow & Test Case Design
-Student: angelkumar427 (angel.24bcs10011@sst.scaler.com)
+Student Name: Angel Kumar
+Roll No: 2024eb02187
+Email: 2024eb02187@online.bits-pilani.ac.in
+GitHub Profile: angelkumar427
+Repository URL: https://github.com/angelkumar427/bits-git-assignment
 ================================================================================
 
 1. git init

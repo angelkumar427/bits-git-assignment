@@ -34,7 +34,7 @@ class NumberedCanvas(canvas.Canvas):
         # Header (pages > 1)
         if self._pageNumber > 1:
             self.drawString(54, 755, "ASSIGNMENT 1: GIT WORKFLOW & TEST CASE DESIGN")
-            self.drawRightString(558, 755, "STUDENT: angelkumar427")
+            self.drawRightString(558, 755, "STUDENT: Angel Kumar (2024eb02187)")
             self.setStrokeColor(colors.HexColor("#CBD5E0"))
             self.setLineWidth(0.75)
             self.line(54, 747, 558, 747)
@@ -202,11 +202,11 @@ def build_pdf(filename="BITS_Assignment_Solutions.pdf"):
             Paragraph("<b>Total Score:</b> 20 Marks (10% of Final Module Grade)", meta_label)
         ],
         [
-            Paragraph("<b>Student Name / ID:</b> angelkumar427", meta_val),
-            Paragraph("<b>Deliverable:</b> Single PDF File + git_commands.txt", meta_val)
+            Paragraph("<b>Student Name:</b> Angel Kumar", meta_val),
+            Paragraph("<b>Roll No:</b> 2024eb02187", meta_val)
         ],
         [
-            Paragraph("<b>Email:</b> angel.24bcs10011@sst.scaler.com", meta_val),
+            Paragraph("<b>Email:</b> 2024eb02187@online.bits-pilani.ac.in", meta_val),
             Paragraph("<b>GitHub URL:</b> https://github.com/angelkumar427/bits-git-assignment", meta_val)
         ]
     ]
