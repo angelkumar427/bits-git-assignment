@@ -1,0 +1,75 @@
+================================================================================
+GIT COMMANDS DOCUMENTATION (git_commands.txt)
+Assignment: Git & GitHub Workflow & Test Case Design
+Student: angelkumar427 (angel.24bcs10011@sst.scaler.com)
+================================================================================
+
+1. git init
+   Initializes a new, empty Git repository inside the local project directory.
+
+2. git branch -M main
+   Renames the default branch of the repository to 'main' following modern Git conventions.
+
+3. git status
+   Displays the current state of the working directory and staging area, highlighting tracked, modified, and untracked files.
+
+4. git add index.html about.html
+   Stages the newly created index.html and about.html files to prepare them for the first commit.
+
+5. git commit -m "Initial commit: Add index.html and about.html"
+   Captures and permanently records the initial snapshot of the project in repository history.
+
+6. git add about.html
+   Stages modifications made to about.html (adding project objectives and details).
+
+7. git commit -m "Update about.html: Add project objectives and details"
+   Creates the second commit recording the content expansion of about.html.
+
+8. git branch feature
+   Creates an isolated branch named 'feature' branching off from the current commit on main.
+
+9. git checkout feature
+   Switches the working branch and active HEAD pointer to the 'feature' branch.
+
+10. git add index.html
+    Stages the changes made to index.html on the feature branch (adding the key features section).
+
+11. git commit -m "Feature: Add key features section to index.html"
+    Commits the feature enhancements exclusively to the 'feature' branch history.
+
+12. git checkout main
+    Switches the active branch back to the 'main' branch to prepare for integration.
+
+13. git merge feature --no-ff -m "Merge branch 'feature' into main"
+    Merges the 'feature' branch into 'main' using a non-fast-forward merge to retain distinct branch commit history.
+
+14. git log --graph --oneline --all --decorate
+    Displays a visual ASCII graph showing all branches, commit hashes, commit messages, and branch merge points.
+
+15. git check-ignore app.log temp/cache.tmp
+    Verifies that target files and directories match the ignore patterns defined in .gitignore.
+
+16. git add .gitignore
+    Stages the .gitignore configuration file configured to ignore *.log files and the temp/ folder.
+
+17. git commit -m "Configure .gitignore to ignore *.log files and temp/ directory"
+    Commits the .gitignore file to the repository to enforce file exclusion rules.
+
+18. git add draft_notes.txt
+    Stages a temporary draft file to prepare an extra commit intended for demonstration of undoing commits.
+
+19. git commit -m "Temporary commit: Add draft notes"
+    Records a temporary commit in repository history to provide a concrete target for the undo operation.
+
+20. git reset HEAD~1
+    Undoes the most recent commit by moving HEAD back by one commit, leaving working directory changes intact as unstaged.
+
+21. git remote add origin <URL>
+    Associates the local Git repository with the remote GitHub repository URL.
+
+22. git push -u origin main
+    Pushes local commits on branch 'main' to GitHub and sets up upstream tracking for future pushes/pulls.
+
+23. git push origin feature
+    Pushes the 'feature' branch to GitHub so evaluators can inspect multi-branch activity remotely.
+================================================================================
