@@ -3,3 +3,8 @@
 
 # Ignore temporary directory
 temp/
+
+# Python cache files
+__pycache__/
+*.pyc
+
