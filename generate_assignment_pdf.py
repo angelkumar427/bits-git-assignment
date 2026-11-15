@@ -198,7 +198,7 @@ def build_pdf(filename="BITS_Assignment_Solutions.pdf"):
     
     meta_data = [
         [
-            Paragraph("<b>Course:</b> Software Engineering &amp; DevOps", meta_label),
+            Paragraph("<b>Course:</b> Software Development Practices", meta_label),
             Paragraph("<b>Total Score:</b> 20 Marks (10% of Final Module Grade)", meta_label)
         ],
         [
